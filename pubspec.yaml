@@ -1,0 +1,36 @@
+name: ark_app
+description: "Arktech App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.3.0
+  flutter_inappwebview: ^6.1.5
+  fluttertoast: ^8.2.12
+  path_provider: ^2.1.5
+  open_file: ^3.5.10
+  url_launcher: ^6.3.1
+  permission_handler: ^11.4.0
+  mime: ^2.0.0
+  wakelock_plus: ^1.3.2
+  package_info_plus: ^8.3.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
